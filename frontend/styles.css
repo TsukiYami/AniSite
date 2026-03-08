@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+#navigator {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+}
+
+#navigator li {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#navigator a {
+    text-decoration: none;
+    color: #9fb2bf;
+}
