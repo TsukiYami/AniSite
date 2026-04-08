@@ -6,6 +6,9 @@
 #ifndef BACKEND_MAIN_H
 
 #include "iostream"
+#include "vector"
+#include "thread"
+#include "fstream"
 #include "WsaDeklaration.h"
 
 #define BACKEND_MAIN_H
