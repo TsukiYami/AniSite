@@ -62,7 +62,7 @@ void SendHttpRequest(const SOCKET oServerSocket) {
 int main() {
     BackendAniSite oBackendAniSite{};
 
-    SOCKET oServerSocket = socket(AF_INET, SOCK_STREAM, 0);
+    const SOCKET oServerSocket = socket(AF_INET, SOCK_STREAM, 0);
     if (oServerSocket == INVALID_SOCKET) {
         std::cerr << "Error creating socket." << std::endl;
     }
